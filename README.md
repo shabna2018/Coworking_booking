@@ -1,6 +1,8 @@
 Coworking Space Booking App
 A Flutter-based mobile application for browsing, viewing, and booking coworking spaces.
 Features real-time updates, interactive maps, and push notifications for booking confirmations.
+
+
 🚀 Features
 Splash Screen – App logo with smooth navigation to Home.
 Home Screen – List coworking branches with name, location, price/hour, search, and filter options.
@@ -9,6 +11,8 @@ Space Details – Images, amenities, description, and operating hours.
 Booking Flow – Date/time slot selection and booking confirmation.
 My Bookings – Track bookings with statuses (Upcoming/Completed).
 Push Notifications – Firebase Cloud Messaging for booking success alerts.
+
+
 🛠️ Tech Stack & Architecture
 Flutter – UI framework
 Provider – State management
@@ -16,6 +20,8 @@ Google Maps – Dynamic map markers
 Firebase Cloud Messaging – Push notifications
 Mock Data Models – For spaces and coordinates
 Clean Architecture – Separation of UI, state, and data layers
+
+
 📦 Setup Instructions
 Clone the repository
 git clone https://github.com/your-username/coworking-booking-app.git
@@ -33,6 +39,8 @@ Add Android & iOS apps, download google-services.json (Android) and GoogleServic
 Enable Cloud Messaging in Firebase console.
 Run the app
 flutter run
+
+
 🗂 Feature List
 Branch Listing – Search and filter coworking spaces by name, location, and price.
 Interactive Map – View locations of all branches with dynamic markers.
@@ -40,6 +48,8 @@ Space Details – Rich detail view with images, amenities, and timings.
 Booking Flow – Easy selection of date & time, followed by confirmation.
 Booking Management – View upcoming and completed bookings.
 Push Notifications – Real-time booking success alerts.
+
+
 🧩 Architecture Decisions
 Provider for State Management – Lightweight and suitable for small-to-medium scale projects.
 Mock Data Models – Used instead of API integration for faster development and testing.
